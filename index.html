@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sushmitha Mani Gunashekar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d1117;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+    }
+
+    .contact-links a {
+      color: #58a6ff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about, .projects {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .about h2, .projects h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    .project {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        background: white;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .project-circle-img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ddd;
+    }
+
+
+    .project-details {
+      flex: 1;
+    }
+
+    .project-details h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #0d1117;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+
+    .contact-links i {
+        font-size: 28px;
+        margin: 0 12px;
+        color: white;
+        transition: color 0.3s;
+    }
+
+    .contact-links a:hover i {
+        color: #58a6ff;
+    }
+
+    .project-links a {
+        text-decoration: none;
+        margin-right: 10px;
+        color: #0066cc;
+        font-weight: 500;
+    }
+
+    .project-links i {
+        margin-right: 6px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/photo.JPG" alt="Your Photo" class="profile-pic" />
+  <h1>Sushmitha Mani Gunashekar</h1>
+  <p>Computer Science Graduate 2024 - 2025 | AI Enthusiast </p>
+  <div class="contact-links">
+  <a href="sushmithamanigunashekar@gmail.com" title="Email">
+    <i class="fas fa-at"></i>
+  </a>
+  <a href="https://github.com/SushmithaMG" target="_blank" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://linkedin.com/in/sushmitha-m-g/" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a passionate Computer Science graduate with interests in Artificial Intelligence, specializing in Computer Vision. I love building meaningful projects and learning new technologies. This portfolio showcases some of the work I did during my academic journey and personal explorations.
+  </p>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <img src="assets/mnist_DeepNN.png" alt="MNIST Network" class="project-circle-img" />
+    
+    <div class="project-details">
+        <h3>Image Classification using Deeper Networks</h3>
+            <p>
+            In this project, a hybrid convolutional neural network is constructed by combining pretrained ResNet18 and GoogleNet models, to perform image classification on the MNIST dataset.
+            To enable parameter-efficient fine-tuning, selected convolutional layers are augmented with Low-Rank Adaptation (LoRA) modules.
+            </p>
+        <div class="project-links">
+            <a href="https://github.com/SushmithaMG/Image_Classification_using_deeper_networks" target="_blank">
+                <i class="fas fa-code"></i> Code
+            </a>
+            <a href="assets/MNIST_Image_classification_CNN.pdf" target="_blank">
+                <i class="fas fa-file-alt"></i> Report
+            </a>
+        </div>
+    </div>
+    </div>
+    
+</section>
+
+<footer>
+  <p>© 2025 SUSHMITHA_MANI_GUNASHEKAR. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
